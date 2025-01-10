@@ -1,0 +1,80 @@
+/* Overall Header Container */
+.admin-header {
+  background-color: #f8f9fa; /* Light gray background for a clean look */
+  padding: 20px 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px;
+}
+
+/* Header Title */
+.header-heading h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333; /* Dark text for contrast */
+  margin: 0;
+}
+
+/* Navbar Styles */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between nav items */
+  margin-right: 30px;
+}
+
+.nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555; /* Neutral text color */
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: #007bff; /* Highlight text on hover */
+}
+
+/* Button Styles */
+.btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success {
+  background-color: #28a745; /* Default success button color */
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Slightly darker green on hover */
+  transform: scale(1.05); /* Subtle scale effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .admin-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .header-heading h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%; /* Full-width buttons for smaller screens */
+    padding: 12px;
+  }
+}

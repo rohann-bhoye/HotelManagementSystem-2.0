@@ -1,0 +1,118 @@
+/* Flower Card */
+.flower-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Hover Effect for Card */
+.flower-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Container */
+.flower-img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Image Styling */
+.flower-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Image */
+.flower-img:hover {
+  transform: scale(1.05);
+}
+
+/* Card Body */
+.flower-card-body {
+  padding: 15px;
+}
+
+/* Title Styling */
+.flower-card-title {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Text Color */
+.text-flower {
+  color: #555;
+}
+
+/* Card Footer */
+.flower-card-footer {
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  background-color: #ff9800;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  background-color: #f57c00;
+}
+
+/* Centering and Layout Utilities */
+.col {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.custom-bg {
+  background-color: #ff9800;
+}
+
+.rounded-flower {
+  border-radius: 10px;
+}
+
+.border-none {
+  border: none;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-block {
+  display: block;
+}

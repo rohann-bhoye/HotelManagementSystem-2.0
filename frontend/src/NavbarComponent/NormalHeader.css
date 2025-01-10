@@ -1,0 +1,64 @@
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Clean white background */
+}
+
+/* Dropdown Button Styles */
+.nav-item .dropdown-toggle {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-item .dropdown-toggle:hover {
+  color: #6ba2dd;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px; /* Padding inside dropdown for better spacing */
+  background-color: #fdfdfd;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px; /* Rounded corners for dropdown items */
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+  color: #fcfcfc;
+}
+
+/* Login Box (Dropdown) Specific Styling */
+.dropdown-menu {
+  min-width: 200px; /* Ensures consistent width for the dropdown */
+  text-align: left; /* Align items neatly */
+}
+
+.dropdown-menu .dropdown-item:first-child {
+  margin-bottom: 10px; /* Add spacing between login and signup options */
+  border-bottom: 1px solid #e9ecef; /* Divider between items */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .me-5 {
+    margin-right: 0;
+  }
+
+  .dropdown-menu {
+    min-width: 100%; /* Expand dropdown to fit mobile screens */
+  }
+}
