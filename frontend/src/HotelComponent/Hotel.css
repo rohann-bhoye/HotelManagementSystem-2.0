@@ -1,0 +1,18 @@
+/* Change the hotel name text color */
+.hotel-name {
+    color: #2196F3; /* Blue color for hotel name */
+}
+
+/* Change the review number color */
+.review-number {
+    color: #0b7dda; /* Darker blue color for review numbers */
+}
+.hoteltitle{
+    color: #0b7dda;
+}
+.hoteltotalroom{
+    color: black;
+}
+.hotelreview{
+    color: black;
+}

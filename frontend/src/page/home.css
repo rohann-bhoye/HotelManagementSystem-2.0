@@ -1,0 +1,64 @@
+/* General Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Carousel Section */
+.carousel-section {
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Hotel Cards */
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Hotel Details */
+.card .card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card .card-body h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40; /* Dark gray text */
+}
+
+.card .card-body p {
+  font-size: 1rem;
+  color: #6c757d; /* Muted gray text */
+}
+
+/* Footer Section */
+footer {
+  background-color: #343a40; /* Dark gray */
+  color: #f8f9fa; /* Light text */
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffc107; /* Bootstrap yellow */
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
