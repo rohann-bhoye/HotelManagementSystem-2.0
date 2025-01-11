@@ -22,7 +22,7 @@ Setup Instructions
 Backend Setup (Spring Boot)
 Clone the repository:
 
-git clone https://github.com/kothavalenilu/HotelManagementSystem.git
+git clone (https://github.com/rohann-bhoye/HotelManagementSystem-2.0.git)
 cd HotelManagementSystem/backend
 Configure the database:
 
